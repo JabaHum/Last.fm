@@ -1,8 +1,6 @@
 package com.bassem.lastfm.ui.toptrackslisting;
 
-import com.bassem.lastfm.models.TopAlbumsResponse;
 import com.bassem.lastfm.models.TopTracksResponse;
-import com.bassem.lastfm.network.TopAlbumsService;
 import com.bassem.lastfm.network.TopTracksService;
 
 import io.reactivex.Single;

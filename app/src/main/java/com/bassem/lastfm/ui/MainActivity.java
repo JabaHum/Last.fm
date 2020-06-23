@@ -3,13 +3,8 @@ package com.bassem.lastfm.ui;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
@@ -17,6 +12,11 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+
 
 import com.bassem.lastfm.R;
 import com.bassem.lastfm.adapters.MainPagerAdapter;
@@ -26,8 +26,7 @@ import com.bassem.lastfm.models.Track;
 import com.bassem.lastfm.ui.topalbumslisting.TopAlbumsFragment;
 import com.bassem.lastfm.ui.topartistslisting.TopArtistsFragment;
 import com.bassem.lastfm.ui.toptrackslisting.TopTracksFragment;
-
-import java.util.List;
+import com.google.android.material.tabs.TabLayout;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

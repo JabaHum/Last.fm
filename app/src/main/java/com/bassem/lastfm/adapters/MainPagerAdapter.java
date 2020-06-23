@@ -1,13 +1,14 @@
 package com.bassem.lastfm.adapters;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+
 import com.bassem.lastfm.R;
-import com.bassem.lastfm.ui.BaseFragment;
 import com.bassem.lastfm.ui.topalbumslisting.TopAlbumsFragment;
 import com.bassem.lastfm.ui.topartistslisting.TopArtistsFragment;
 import com.bassem.lastfm.ui.toptrackslisting.TopTracksFragment;
@@ -15,7 +16,6 @@ import com.bassem.lastfm.ui.toptrackslisting.TopTracksFragment;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Hashtable;
-import java.util.List;
 
 /**
  * Created by Bassem Samy on 6/15/2017.

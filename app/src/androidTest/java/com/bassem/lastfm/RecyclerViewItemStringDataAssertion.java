@@ -2,7 +2,7 @@ package com.bassem.lastfm;
 
 import android.support.test.espresso.NoMatchingViewException;
 import android.support.test.espresso.ViewAssertion;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
